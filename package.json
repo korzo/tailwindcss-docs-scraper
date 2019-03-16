@@ -1,0 +1,40 @@
+{
+  "name": "tailwindcss-docs-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register --bail test/*.test.ts",
+    "test:watch": "mocha -r ts-node/register --bail -w --watch-extensions ts test/*.test.ts",
+    "generate": "ts-node index.ts generate",
+    "clear": "ts-node index.ts clear"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korzo/tailwindcss-docs-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korzo/tailwindcss-docs-scraper/issues"
+  },
+  "homepage": "https://github.com/korzo/tailwindcss-docs-scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/chai": "^4.1.7",
+    "@types/cheerio": "^0.22.11",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.11.3",
+    "@types/rimraf": "^2.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  }
+}

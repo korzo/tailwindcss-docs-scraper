@@ -1,0 +1,2450 @@
+[
+    {
+        "name": "Display",
+        "classes": [
+            {
+                "name": ".block",
+                "property": "display: block;"
+            },
+            {
+                "name": ".inline-block",
+                "property": "display: inline-block;"
+            },
+            {
+                "name": ".inline",
+                "property": "display: inline;"
+            },
+            {
+                "name": ".table",
+                "property": "display: table;"
+            },
+            {
+                "name": ".table-row",
+                "property": "display: table-row;"
+            },
+            {
+                "name": ".table-cell",
+                "property": "display: table-cell;"
+            },
+            {
+                "name": ".hidden",
+                "property": "display: none;"
+            },
+            {
+                "name": ".flex",
+                "property": "display: flex;"
+            },
+            {
+                "name": ".inline-flex",
+                "property": "display: inline-flex;"
+            }
+        ]
+    },
+    {
+        "name": "Floats",
+        "classes": [
+            {
+                "name": ".float-right",
+                "property": "float: right;"
+            },
+            {
+                "name": ".float-left",
+                "property": "float: left;"
+            },
+            {
+                "name": ".float-none",
+                "property": "float: none;"
+            },
+            {
+                "name": ".clearfix",
+                "property": "&::after {<br>  content: \"\";<br>  display: table;<br>  clear: both;<br>}"
+            }
+        ]
+    },
+    {
+        "name": "Object Fit",
+        "classes": [
+            {
+                "name": ".object-contain",
+                "property": "object-fit: contain;"
+            },
+            {
+                "name": ".object-cover",
+                "property": "object-fit: cover;"
+            },
+            {
+                "name": ".object-fill",
+                "property": "object-fit: fill;"
+            },
+            {
+                "name": ".object-none",
+                "property": "object-fit: none;"
+            },
+            {
+                "name": ".object-scale-down",
+                "property": "object-fit: scale-down;"
+            }
+        ]
+    },
+    {
+        "name": "Object Position",
+        "classes": [
+            {
+                "name": ".object-bottom",
+                "property": "object-position: bottom;"
+            },
+            {
+                "name": ".object-center",
+                "property": "object-position: center;"
+            },
+            {
+                "name": ".object-left",
+                "property": "object-position: left;"
+            },
+            {
+                "name": ".object-left-bottom",
+                "property": "object-position: left bottom;"
+            },
+            {
+                "name": ".object-left-top",
+                "property": "object-position: left top;"
+            },
+            {
+                "name": ".object-right",
+                "property": "object-position: right;"
+            },
+            {
+                "name": ".object-right-bottom",
+                "property": "object-position: right bottom;"
+            },
+            {
+                "name": ".object-right-top",
+                "property": "object-position: right top;"
+            },
+            {
+                "name": ".object-top",
+                "property": "object-position: top;"
+            }
+        ]
+    },
+    {
+        "name": "Overflow",
+        "classes": [
+            {
+                "name": ".overflow-auto",
+                "property": "overflow: auto;"
+            },
+            {
+                "name": ".overflow-hidden",
+                "property": "overflow: hidden;"
+            },
+            {
+                "name": ".overflow-visible",
+                "property": "overflow: visible;"
+            },
+            {
+                "name": ".overflow-scroll",
+                "property": "overflow: scroll;"
+            },
+            {
+                "name": ".overflow-x-auto",
+                "property": "overflow-x: auto;"
+            },
+            {
+                "name": ".overflow-y-auto",
+                "property": "overflow-y: auto;"
+            },
+            {
+                "name": ".overflow-x-hidden",
+                "property": "overflow-x: hidden;"
+            },
+            {
+                "name": ".overflow-y-hidden",
+                "property": "overflow-y: hidden;"
+            },
+            {
+                "name": ".overflow-x-visible",
+                "property": "overflow-x: visible;"
+            },
+            {
+                "name": ".overflow-y-visible",
+                "property": "overflow-y: visible;"
+            },
+            {
+                "name": ".overflow-x-scroll",
+                "property": "overflow-x: scroll;"
+            },
+            {
+                "name": ".overflow-y-scroll",
+                "property": "overflow-y: scroll;"
+            },
+            {
+                "name": ".scrolling-touch",
+                "property": "-webkit-overflow-scrolling: touch;"
+            },
+            {
+                "name": ".scrolling-auto",
+                "property": "-webkit-overflow-scrolling: auto;"
+            }
+        ]
+    },
+    {
+        "name": "Position",
+        "classes": [
+            {
+                "name": ".static",
+                "property": "position: static;"
+            },
+            {
+                "name": ".fixed",
+                "property": "position: fixed;"
+            },
+            {
+                "name": ".absolute",
+                "property": "position: absolute;"
+            },
+            {
+                "name": ".relative",
+                "property": "position: relative;"
+            },
+            {
+                "name": ".sticky",
+                "property": "position: sticky;"
+            },
+            {
+                "name": ".pin-t",
+                "property": "top: 0;"
+            },
+            {
+                "name": ".pin-r",
+                "property": "right: 0;"
+            },
+            {
+                "name": ".pin-b",
+                "property": "bottom: 0;"
+            },
+            {
+                "name": ".pin-l",
+                "property": "left: 0;"
+            },
+            {
+                "name": ".pin-y",
+                "property": "top: 0;<br>bottom: 0;"
+            },
+            {
+                "name": ".pin-x",
+                "property": "right: 0;<br>left: 0;"
+            },
+            {
+                "name": ".pin",
+                "property": "top: 0;<br>right: 0;<br>bottom: 0;<br>left: 0;"
+            },
+            {
+                "name": ".pin-none",
+                "property": "top: auto;<br>right: auto;<br>bottom: auto;<br>left: auto;"
+            }
+        ]
+    },
+    {
+        "name": "Visibility",
+        "classes": [
+            {
+                "name": ".visible",
+                "property": "visibility: visible;"
+            },
+            {
+                "name": ".invisible",
+                "property": "visibility: hidden;"
+            }
+        ]
+    },
+    {
+        "name": "Z-Index",
+        "classes": [
+            {
+                "name": ".z-0",
+                "property": "z-index: 0;"
+            },
+            {
+                "name": ".z-10",
+                "property": "z-index: 10;"
+            },
+            {
+                "name": ".z-20",
+                "property": "z-index: 20;"
+            },
+            {
+                "name": ".z-30",
+                "property": "z-index: 30;"
+            },
+            {
+                "name": ".z-40",
+                "property": "z-index: 40;"
+            },
+            {
+                "name": ".z-50",
+                "property": "z-index: 50;"
+            },
+            {
+                "name": ".z-auto",
+                "property": "z-index: auto;"
+            }
+        ]
+    },
+    {
+        "name": "Color",
+        "classes": [
+            {
+                "name": ".text-transparent",
+                "property": "color: transparent;"
+            },
+            {
+                "name": ".text-black",
+                "property": "color: #22292f;"
+            },
+            {
+                "name": ".text-grey-darkest",
+                "property": "color: #3d4852;"
+            },
+            {
+                "name": ".text-grey-darker",
+                "property": "color: #606f7b;"
+            },
+            {
+                "name": ".text-grey-dark",
+                "property": "color: #8795a1;"
+            },
+            {
+                "name": ".text-grey",
+                "property": "color: #b8c2cc;"
+            },
+            {
+                "name": ".text-grey-light",
+                "property": "color: #dae1e7;"
+            },
+            {
+                "name": ".text-grey-lighter",
+                "property": "color: #f1f5f8;"
+            },
+            {
+                "name": ".text-grey-lightest",
+                "property": "color: #f8fafc;"
+            },
+            {
+                "name": ".text-white",
+                "property": "color: #ffffff;"
+            },
+            {
+                "name": ".text-red-darkest",
+                "property": "color: #3b0d0c;"
+            },
+            {
+                "name": ".text-red-darker",
+                "property": "color: #621b18;"
+            },
+            {
+                "name": ".text-red-dark",
+                "property": "color: #cc1f1a;"
+            },
+            {
+                "name": ".text-red",
+                "property": "color: #e3342f;"
+            },
+            {
+                "name": ".text-red-light",
+                "property": "color: #ef5753;"
+            },
+            {
+                "name": ".text-red-lighter",
+                "property": "color: #f9acaa;"
+            },
+            {
+                "name": ".text-red-lightest",
+                "property": "color: #fcebea;"
+            },
+            {
+                "name": ".text-orange-darkest",
+                "property": "color: #462a16;"
+            },
+            {
+                "name": ".text-orange-darker",
+                "property": "color: #613b1f;"
+            },
+            {
+                "name": ".text-orange-dark",
+                "property": "color: #de751f;"
+            },
+            {
+                "name": ".text-orange",
+                "property": "color: #f6993f;"
+            },
+            {
+                "name": ".text-orange-light",
+                "property": "color: #faad63;"
+            },
+            {
+                "name": ".text-orange-lighter",
+                "property": "color: #fcd9b6;"
+            },
+            {
+                "name": ".text-orange-lightest",
+                "property": "color: #fff5eb;"
+            },
+            {
+                "name": ".text-yellow-darkest",
+                "property": "color: #453411;"
+            },
+            {
+                "name": ".text-yellow-darker",
+                "property": "color: #684f1d;"
+            },
+            {
+                "name": ".text-yellow-dark",
+                "property": "color: #f2d024;"
+            },
+            {
+                "name": ".text-yellow",
+                "property": "color: #ffed4a;"
+            },
+            {
+                "name": ".text-yellow-light",
+                "property": "color: #fff382;"
+            },
+            {
+                "name": ".text-yellow-lighter",
+                "property": "color: #fff9c2;"
+            },
+            {
+                "name": ".text-yellow-lightest",
+                "property": "color: #fcfbeb;"
+            },
+            {
+                "name": ".text-green-darkest",
+                "property": "color: #0f2f21;"
+            },
+            {
+                "name": ".text-green-darker",
+                "property": "color: #1a4731;"
+            },
+            {
+                "name": ".text-green-dark",
+                "property": "color: #1f9d55;"
+            },
+            {
+                "name": ".text-green",
+                "property": "color: #38c172;"
+            },
+            {
+                "name": ".text-green-light",
+                "property": "color: #51d88a;"
+            },
+            {
+                "name": ".text-green-lighter",
+                "property": "color: #a2f5bf;"
+            },
+            {
+                "name": ".text-green-lightest",
+                "property": "color: #e3fcec;"
+            },
+            {
+                "name": ".text-teal-darkest",
+                "property": "color: #0d3331;"
+            },
+            {
+                "name": ".text-teal-darker",
+                "property": "color: #20504f;"
+            },
+            {
+                "name": ".text-teal-dark",
+                "property": "color: #38a89d;"
+            },
+            {
+                "name": ".text-teal",
+                "property": "color: #4dc0b5;"
+            },
+            {
+                "name": ".text-teal-light",
+                "property": "color: #64d5ca;"
+            },
+            {
+                "name": ".text-teal-lighter",
+                "property": "color: #a0f0ed;"
+            },
+            {
+                "name": ".text-teal-lightest",
+                "property": "color: #e8fffe;"
+            },
+            {
+                "name": ".text-blue-darkest",
+                "property": "color: #12283a;"
+            },
+            {
+                "name": ".text-blue-darker",
+                "property": "color: #1c3d5a;"
+            },
+            {
+                "name": ".text-blue-dark",
+                "property": "color: #2779bd;"
+            },
+            {
+                "name": ".text-blue",
+                "property": "color: #3490dc;"
+            },
+            {
+                "name": ".text-blue-light",
+                "property": "color: #6cb2eb;"
+            },
+            {
+                "name": ".text-blue-lighter",
+                "property": "color: #bcdefa;"
+            },
+            {
+                "name": ".text-blue-lightest",
+                "property": "color: #eff8ff;"
+            },
+            {
+                "name": ".text-indigo-darkest",
+                "property": "color: #191e38;"
+            },
+            {
+                "name": ".text-indigo-darker",
+                "property": "color: #2f365f;"
+            },
+            {
+                "name": ".text-indigo-dark",
+                "property": "color: #5661b3;"
+            },
+            {
+                "name": ".text-indigo",
+                "property": "color: #6574cd;"
+            },
+            {
+                "name": ".text-indigo-light",
+                "property": "color: #7886d7;"
+            },
+            {
+                "name": ".text-indigo-lighter",
+                "property": "color: #b2b7ff;"
+            },
+            {
+                "name": ".text-indigo-lightest",
+                "property": "color: #e6e8ff;"
+            },
+            {
+                "name": ".text-purple-darkest",
+                "property": "color: #21183c;"
+            },
+            {
+                "name": ".text-purple-darker",
+                "property": "color: #382b5f;"
+            },
+            {
+                "name": ".text-purple-dark",
+                "property": "color: #794acf;"
+            },
+            {
+                "name": ".text-purple",
+                "property": "color: #9561e2;"
+            },
+            {
+                "name": ".text-purple-light",
+                "property": "color: #a779e9;"
+            },
+            {
+                "name": ".text-purple-lighter",
+                "property": "color: #d6bbfc;"
+            },
+            {
+                "name": ".text-purple-lightest",
+                "property": "color: #f3ebff;"
+            },
+            {
+                "name": ".text-pink-darkest",
+                "property": "color: #451225;"
+            },
+            {
+                "name": ".text-pink-darker",
+                "property": "color: #6f213f;"
+            },
+            {
+                "name": ".text-pink-dark",
+                "property": "color: #eb5286;"
+            },
+            {
+                "name": ".text-pink",
+                "property": "color: #f66d9b;"
+            },
+            {
+                "name": ".text-pink-light",
+                "property": "color: #fa7ea8;"
+            },
+            {
+                "name": ".text-pink-lighter",
+                "property": "color: #ffbbca;"
+            },
+            {
+                "name": ".text-pink-lightest",
+                "property": "color: #ffebef;"
+            }
+        ]
+    },
+    {
+        "name": "Font Family",
+        "classes": [
+            {
+                "name": ".font-sans",
+                "property": "font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;"
+            },
+            {
+                "name": ".font-serif",
+                "property": "font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;"
+            },
+            {
+                "name": ".font-mono",
+                "property": "font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;"
+            }
+        ]
+    },
+    {
+        "name": "Font Size",
+        "classes": [
+            {
+                "name": ".text-xs",
+                "property": "font-size: .75rem;"
+            },
+            {
+                "name": ".text-sm",
+                "property": "font-size: .875rem;"
+            },
+            {
+                "name": ".text-base",
+                "property": "font-size: 1rem;"
+            },
+            {
+                "name": ".text-lg",
+                "property": "font-size: 1.125rem;"
+            },
+            {
+                "name": ".text-xl",
+                "property": "font-size: 1.25rem;"
+            },
+            {
+                "name": ".text-2xl",
+                "property": "font-size: 1.5rem;"
+            },
+            {
+                "name": ".text-3xl",
+                "property": "font-size: 1.875rem;"
+            },
+            {
+                "name": ".text-4xl",
+                "property": "font-size: 2.25rem;"
+            },
+            {
+                "name": ".text-5xl",
+                "property": "font-size: 3rem;"
+            }
+        ]
+    },
+    {
+        "name": "Font Weight",
+        "classes": [
+            {
+                "name": ".font-hairline",
+                "property": "font-weight: 100;"
+            },
+            {
+                "name": ".font-thin",
+                "property": "font-weight: 200;"
+            },
+            {
+                "name": ".font-light",
+                "property": "font-weight: 300;"
+            },
+            {
+                "name": ".font-normal",
+                "property": "font-weight: 400;"
+            },
+            {
+                "name": ".font-medium",
+                "property": "font-weight: 500;"
+            },
+            {
+                "name": ".font-semibold",
+                "property": "font-weight: 600;"
+            },
+            {
+                "name": ".font-bold",
+                "property": "font-weight: 700;"
+            },
+            {
+                "name": ".font-extrabold",
+                "property": "font-weight: 800;"
+            },
+            {
+                "name": ".font-black",
+                "property": "font-weight: 900;"
+            }
+        ]
+    },
+    {
+        "name": "Letter Spacing",
+        "classes": [
+            {
+                "name": ".tracking-tight",
+                "property": "letter-spacing: -0.05em;"
+            },
+            {
+                "name": ".tracking-normal",
+                "property": "letter-spacing: 0;"
+            },
+            {
+                "name": ".tracking-wide",
+                "property": "letter-spacing: 0.05em;"
+            }
+        ]
+    },
+    {
+        "name": "Line Height",
+        "classes": [
+            {
+                "name": ".leading-none",
+                "property": "line-height: 1;"
+            },
+            {
+                "name": ".leading-tight",
+                "property": "line-height: 1.25;"
+            },
+            {
+                "name": ".leading-normal",
+                "property": "line-height: 1.5;"
+            },
+            {
+                "name": ".leading-loose",
+                "property": "line-height: 2;"
+            }
+        ]
+    },
+    {
+        "name": "Lists",
+        "classes": [
+            {
+                "name": ".list-reset",
+                "property": "list-style: none; padding: 0;"
+            }
+        ]
+    },
+    {
+        "name": "Style & Decoration",
+        "classes": [
+            {
+                "name": ".italic",
+                "property": "font-style: italic;"
+            },
+            {
+                "name": ".roman",
+                "property": "font-style: normal;"
+            },
+            {
+                "name": ".uppercase",
+                "property": "text-transform: uppercase;"
+            },
+            {
+                "name": ".lowercase",
+                "property": "text-transform: lowercase;"
+            },
+            {
+                "name": ".capitalize",
+                "property": "text-transform: capitalize;"
+            },
+            {
+                "name": ".normal-case",
+                "property": "text-transform: none;"
+            },
+            {
+                "name": ".underline",
+                "property": "text-decoration: underline;"
+            },
+            {
+                "name": ".line-through",
+                "property": "text-decoration: line-through;"
+            },
+            {
+                "name": ".no-underline",
+                "property": "text-decoration: none;"
+            },
+            {
+                "name": ".antialiased",
+                "property": "-webkit-font-smoothing: antialiased;<br>-moz-osx-font-smoothing: grayscale;"
+            },
+            {
+                "name": ".subpixel-antialiased",
+                "property": "-webkit-font-smoothing: auto;<br>-moz-osx-font-smoothing: auto;"
+            }
+        ]
+    },
+    {
+        "name": "Text Alignment",
+        "classes": [
+            {
+                "name": ".text-left",
+                "property": "text-align: left;"
+            },
+            {
+                "name": ".text-center",
+                "property": "text-align: center;"
+            },
+            {
+                "name": ".text-right",
+                "property": "text-align: right;"
+            },
+            {
+                "name": ".text-justify",
+                "property": "text-align: justify;"
+            }
+        ]
+    },
+    {
+        "name": "Vertical Alignment",
+        "classes": [
+            {
+                "name": ".align-baseline",
+                "property": "vertical-align: baseline;"
+            },
+            {
+                "name": ".align-top",
+                "property": "vertical-align: top;"
+            },
+            {
+                "name": ".align-middle",
+                "property": "vertical-align: middle;"
+            },
+            {
+                "name": ".align-bottom",
+                "property": "vertical-align: bottom;"
+            },
+            {
+                "name": ".align-text-top",
+                "property": "vertical-align: text-top;"
+            },
+            {
+                "name": ".align-text-bottom",
+                "property": "vertical-align: text-bottom;"
+            }
+        ]
+    },
+    {
+        "name": "Whitespace & Wrapping",
+        "classes": [
+            {
+                "name": ".whitespace-normal",
+                "property": "white-space: normal;"
+            },
+            {
+                "name": ".whitespace-no-wrap",
+                "property": "white-space: nowrap;"
+            },
+            {
+                "name": ".whitespace-pre",
+                "property": "white-space: pre;"
+            },
+            {
+                "name": ".whitespace-pre-line",
+                "property": "white-space: pre-line;"
+            },
+            {
+                "name": ".whitespace-pre-wrap",
+                "property": "white-space: pre-wrap;"
+            },
+            {
+                "name": ".break-words",
+                "property": "word-wrap: break-word;"
+            },
+            {
+                "name": ".break-normal",
+                "property": "word-wrap: normal;"
+            },
+            {
+                "name": ".truncate",
+                "property": "overflow: hidden;<br>text-overflow: ellipsis;<br>white-space: nowrap"
+            }
+        ]
+    },
+    {
+        "name": "Background Attachment",
+        "classes": [
+            {
+                "name": ".bg-fixed",
+                "property": "background-attachment: fixed;"
+            },
+            {
+                "name": ".bg-local",
+                "property": "background-attachment: local;"
+            },
+            {
+                "name": ".bg-scroll",
+                "property": "background-attachment: scroll;"
+            }
+        ]
+    },
+    {
+        "name": "Background Color",
+        "classes": [
+            {
+                "name": ".bg-transparent",
+                "property": "background-color: transparent;"
+            },
+            {
+                "name": ".bg-black",
+                "property": "background-color: #22292f;"
+            },
+            {
+                "name": ".bg-grey-darkest",
+                "property": "background-color: #3d4852;"
+            },
+            {
+                "name": ".bg-grey-darker",
+                "property": "background-color: #606f7b;"
+            },
+            {
+                "name": ".bg-grey-dark",
+                "property": "background-color: #8795a1;"
+            },
+            {
+                "name": ".bg-grey",
+                "property": "background-color: #b8c2cc;"
+            },
+            {
+                "name": ".bg-grey-light",
+                "property": "background-color: #dae1e7;"
+            },
+            {
+                "name": ".bg-grey-lighter",
+                "property": "background-color: #f1f5f8;"
+            },
+            {
+                "name": ".bg-grey-lightest",
+                "property": "background-color: #f8fafc;"
+            },
+            {
+                "name": ".bg-white",
+                "property": "background-color: #ffffff;"
+            },
+            {
+                "name": ".bg-red-darkest",
+                "property": "background-color: #3b0d0c;"
+            },
+            {
+                "name": ".bg-red-darker",
+                "property": "background-color: #621b18;"
+            },
+            {
+                "name": ".bg-red-dark",
+                "property": "background-color: #cc1f1a;"
+            },
+            {
+                "name": ".bg-red",
+                "property": "background-color: #e3342f;"
+            },
+            {
+                "name": ".bg-red-light",
+                "property": "background-color: #ef5753;"
+            },
+            {
+                "name": ".bg-red-lighter",
+                "property": "background-color: #f9acaa;"
+            },
+            {
+                "name": ".bg-red-lightest",
+                "property": "background-color: #fcebea;"
+            },
+            {
+                "name": ".bg-orange-darkest",
+                "property": "background-color: #462a16;"
+            },
+            {
+                "name": ".bg-orange-darker",
+                "property": "background-color: #613b1f;"
+            },
+            {
+                "name": ".bg-orange-dark",
+                "property": "background-color: #de751f;"
+            },
+            {
+                "name": ".bg-orange",
+                "property": "background-color: #f6993f;"
+            },
+            {
+                "name": ".bg-orange-light",
+                "property": "background-color: #faad63;"
+            },
+            {
+                "name": ".bg-orange-lighter",
+                "property": "background-color: #fcd9b6;"
+            },
+            {
+                "name": ".bg-orange-lightest",
+                "property": "background-color: #fff5eb;"
+            },
+            {
+                "name": ".bg-yellow-darkest",
+                "property": "background-color: #453411;"
+            },
+            {
+                "name": ".bg-yellow-darker",
+                "property": "background-color: #684f1d;"
+            },
+            {
+                "name": ".bg-yellow-dark",
+                "property": "background-color: #f2d024;"
+            },
+            {
+                "name": ".bg-yellow",
+                "property": "background-color: #ffed4a;"
+            },
+            {
+                "name": ".bg-yellow-light",
+                "property": "background-color: #fff382;"
+            },
+            {
+                "name": ".bg-yellow-lighter",
+                "property": "background-color: #fff9c2;"
+            },
+            {
+                "name": ".bg-yellow-lightest",
+                "property": "background-color: #fcfbeb;"
+            },
+            {
+                "name": ".bg-green-darkest",
+                "property": "background-color: #0f2f21;"
+            },
+            {
+                "name": ".bg-green-darker",
+                "property": "background-color: #1a4731;"
+            },
+            {
+                "name": ".bg-green-dark",
+                "property": "background-color: #1f9d55;"
+            },
+            {
+                "name": ".bg-green",
+                "property": "background-color: #38c172;"
+            },
+            {
+                "name": ".bg-green-light",
+                "property": "background-color: #51d88a;"
+            },
+            {
+                "name": ".bg-green-lighter",
+                "property": "background-color: #a2f5bf;"
+            },
+            {
+                "name": ".bg-green-lightest",
+                "property": "background-color: #e3fcec;"
+            },
+            {
+                "name": ".bg-teal-darkest",
+                "property": "background-color: #0d3331;"
+            },
+            {
+                "name": ".bg-teal-darker",
+                "property": "background-color: #20504f;"
+            },
+            {
+                "name": ".bg-teal-dark",
+                "property": "background-color: #38a89d;"
+            },
+            {
+                "name": ".bg-teal",
+                "property": "background-color: #4dc0b5;"
+            },
+            {
+                "name": ".bg-teal-light",
+                "property": "background-color: #64d5ca;"
+            },
+            {
+                "name": ".bg-teal-lighter",
+                "property": "background-color: #a0f0ed;"
+            },
+            {
+                "name": ".bg-teal-lightest",
+                "property": "background-color: #e8fffe;"
+            },
+            {
+                "name": ".bg-blue-darkest",
+                "property": "background-color: #12283a;"
+            },
+            {
+                "name": ".bg-blue-darker",
+                "property": "background-color: #1c3d5a;"
+            },
+            {
+                "name": ".bg-blue-dark",
+                "property": "background-color: #2779bd;"
+            },
+            {
+                "name": ".bg-blue",
+                "property": "background-color: #3490dc;"
+            },
+            {
+                "name": ".bg-blue-light",
+                "property": "background-color: #6cb2eb;"
+            },
+            {
+                "name": ".bg-blue-lighter",
+                "property": "background-color: #bcdefa;"
+            },
+            {
+                "name": ".bg-blue-lightest",
+                "property": "background-color: #eff8ff;"
+            },
+            {
+                "name": ".bg-indigo-darkest",
+                "property": "background-color: #191e38;"
+            },
+            {
+                "name": ".bg-indigo-darker",
+                "property": "background-color: #2f365f;"
+            },
+            {
+                "name": ".bg-indigo-dark",
+                "property": "background-color: #5661b3;"
+            },
+            {
+                "name": ".bg-indigo",
+                "property": "background-color: #6574cd;"
+            },
+            {
+                "name": ".bg-indigo-light",
+                "property": "background-color: #7886d7;"
+            },
+            {
+                "name": ".bg-indigo-lighter",
+                "property": "background-color: #b2b7ff;"
+            },
+            {
+                "name": ".bg-indigo-lightest",
+                "property": "background-color: #e6e8ff;"
+            },
+            {
+                "name": ".bg-purple-darkest",
+                "property": "background-color: #21183c;"
+            },
+            {
+                "name": ".bg-purple-darker",
+                "property": "background-color: #382b5f;"
+            },
+            {
+                "name": ".bg-purple-dark",
+                "property": "background-color: #794acf;"
+            },
+            {
+                "name": ".bg-purple",
+                "property": "background-color: #9561e2;"
+            },
+            {
+                "name": ".bg-purple-light",
+                "property": "background-color: #a779e9;"
+            },
+            {
+                "name": ".bg-purple-lighter",
+                "property": "background-color: #d6bbfc;"
+            },
+            {
+                "name": ".bg-purple-lightest",
+                "property": "background-color: #f3ebff;"
+            },
+            {
+                "name": ".bg-pink-darkest",
+                "property": "background-color: #451225;"
+            },
+            {
+                "name": ".bg-pink-darker",
+                "property": "background-color: #6f213f;"
+            },
+            {
+                "name": ".bg-pink-dark",
+                "property": "background-color: #eb5286;"
+            },
+            {
+                "name": ".bg-pink",
+                "property": "background-color: #f66d9b;"
+            },
+            {
+                "name": ".bg-pink-light",
+                "property": "background-color: #fa7ea8;"
+            },
+            {
+                "name": ".bg-pink-lighter",
+                "property": "background-color: #ffbbca;"
+            },
+            {
+                "name": ".bg-pink-lightest",
+                "property": "background-color: #ffebef;"
+            }
+        ]
+    },
+    {
+        "name": "Background Position",
+        "classes": [
+            {
+                "name": ".bg-bottom",
+                "property": "background-position: bottom;"
+            },
+            {
+                "name": ".bg-center",
+                "property": "background-position: center;"
+            },
+            {
+                "name": ".bg-left",
+                "property": "background-position: left;"
+            },
+            {
+                "name": ".bg-left-bottom",
+                "property": "background-position: left bottom;"
+            },
+            {
+                "name": ".bg-left-top",
+                "property": "background-position: left top;"
+            },
+            {
+                "name": ".bg-right",
+                "property": "background-position: right;"
+            },
+            {
+                "name": ".bg-right-bottom",
+                "property": "background-position: right bottom;"
+            },
+            {
+                "name": ".bg-right-top",
+                "property": "background-position: right top;"
+            },
+            {
+                "name": ".bg-top",
+                "property": "background-position: top;"
+            }
+        ]
+    },
+    {
+        "name": "Background Repeat",
+        "classes": [
+            {
+                "name": ".bg-repeat",
+                "property": "background-repeat: repeat;"
+            },
+            {
+                "name": ".bg-no-repeat",
+                "property": "background-repeat: no-repeat;"
+            },
+            {
+                "name": ".bg-repeat-x",
+                "property": "background-repeat: repeat-x;"
+            },
+            {
+                "name": ".bg-repeat-y",
+                "property": "background-repeat: repeat-y;"
+            }
+        ]
+    },
+    {
+        "name": "Background Size",
+        "classes": [
+            {
+                "name": ".bg-auto",
+                "property": "background-size: auto;"
+            },
+            {
+                "name": ".bg-cover",
+                "property": "background-size: cover;"
+            },
+            {
+                "name": ".bg-contain",
+                "property": "background-size: contain;"
+            }
+        ]
+    },
+    {
+        "name": "Border Color",
+        "classes": [
+            {
+                "name": ".border-transparent",
+                "property": "border-color: transparent;"
+            },
+            {
+                "name": ".border-black",
+                "property": "border-color: #22292f;"
+            },
+            {
+                "name": ".border-grey-darkest",
+                "property": "border-color: #3d4852;"
+            },
+            {
+                "name": ".border-grey-darker",
+                "property": "border-color: #606f7b;"
+            },
+            {
+                "name": ".border-grey-dark",
+                "property": "border-color: #8795a1;"
+            },
+            {
+                "name": ".border-grey",
+                "property": "border-color: #b8c2cc;"
+            },
+            {
+                "name": ".border-grey-light",
+                "property": "border-color: #dae1e7;"
+            },
+            {
+                "name": ".border-grey-lighter",
+                "property": "border-color: #f1f5f8;"
+            },
+            {
+                "name": ".border-grey-lightest",
+                "property": "border-color: #f8fafc;"
+            },
+            {
+                "name": ".border-white",
+                "property": "border-color: #ffffff;"
+            },
+            {
+                "name": ".border-red-darkest",
+                "property": "border-color: #3b0d0c;"
+            },
+            {
+                "name": ".border-red-darker",
+                "property": "border-color: #621b18;"
+            },
+            {
+                "name": ".border-red-dark",
+                "property": "border-color: #cc1f1a;"
+            },
+            {
+                "name": ".border-red",
+                "property": "border-color: #e3342f;"
+            },
+            {
+                "name": ".border-red-light",
+                "property": "border-color: #ef5753;"
+            },
+            {
+                "name": ".border-red-lighter",
+                "property": "border-color: #f9acaa;"
+            },
+            {
+                "name": ".border-red-lightest",
+                "property": "border-color: #fcebea;"
+            },
+            {
+                "name": ".border-orange-darkest",
+                "property": "border-color: #462a16;"
+            },
+            {
+                "name": ".border-orange-darker",
+                "property": "border-color: #613b1f;"
+            },
+            {
+                "name": ".border-orange-dark",
+                "property": "border-color: #de751f;"
+            },
+            {
+                "name": ".border-orange",
+                "property": "border-color: #f6993f;"
+            },
+            {
+                "name": ".border-orange-light",
+                "property": "border-color: #faad63;"
+            },
+            {
+                "name": ".border-orange-lighter",
+                "property": "border-color: #fcd9b6;"
+            },
+            {
+                "name": ".border-orange-lightest",
+                "property": "border-color: #fff5eb;"
+            },
+            {
+                "name": ".border-yellow-darkest",
+                "property": "border-color: #453411;"
+            },
+            {
+                "name": ".border-yellow-darker",
+                "property": "border-color: #684f1d;"
+            },
+            {
+                "name": ".border-yellow-dark",
+                "property": "border-color: #f2d024;"
+            },
+            {
+                "name": ".border-yellow",
+                "property": "border-color: #ffed4a;"
+            },
+            {
+                "name": ".border-yellow-light",
+                "property": "border-color: #fff382;"
+            },
+            {
+                "name": ".border-yellow-lighter",
+                "property": "border-color: #fff9c2;"
+            },
+            {
+                "name": ".border-yellow-lightest",
+                "property": "border-color: #fcfbeb;"
+            },
+            {
+                "name": ".border-green-darkest",
+                "property": "border-color: #0f2f21;"
+            },
+            {
+                "name": ".border-green-darker",
+                "property": "border-color: #1a4731;"
+            },
+            {
+                "name": ".border-green-dark",
+                "property": "border-color: #1f9d55;"
+            },
+            {
+                "name": ".border-green",
+                "property": "border-color: #38c172;"
+            },
+            {
+                "name": ".border-green-light",
+                "property": "border-color: #51d88a;"
+            },
+            {
+                "name": ".border-green-lighter",
+                "property": "border-color: #a2f5bf;"
+            },
+            {
+                "name": ".border-green-lightest",
+                "property": "border-color: #e3fcec;"
+            },
+            {
+                "name": ".border-teal-darkest",
+                "property": "border-color: #0d3331;"
+            },
+            {
+                "name": ".border-teal-darker",
+                "property": "border-color: #20504f;"
+            },
+            {
+                "name": ".border-teal-dark",
+                "property": "border-color: #38a89d;"
+            },
+            {
+                "name": ".border-teal",
+                "property": "border-color: #4dc0b5;"
+            },
+            {
+                "name": ".border-teal-light",
+                "property": "border-color: #64d5ca;"
+            },
+            {
+                "name": ".border-teal-lighter",
+                "property": "border-color: #a0f0ed;"
+            },
+            {
+                "name": ".border-teal-lightest",
+                "property": "border-color: #e8fffe;"
+            },
+            {
+                "name": ".border-blue-darkest",
+                "property": "border-color: #12283a;"
+            },
+            {
+                "name": ".border-blue-darker",
+                "property": "border-color: #1c3d5a;"
+            },
+            {
+                "name": ".border-blue-dark",
+                "property": "border-color: #2779bd;"
+            },
+            {
+                "name": ".border-blue",
+                "property": "border-color: #3490dc;"
+            },
+            {
+                "name": ".border-blue-light",
+                "property": "border-color: #6cb2eb;"
+            },
+            {
+                "name": ".border-blue-lighter",
+                "property": "border-color: #bcdefa;"
+            },
+            {
+                "name": ".border-blue-lightest",
+                "property": "border-color: #eff8ff;"
+            },
+            {
+                "name": ".border-indigo-darkest",
+                "property": "border-color: #191e38;"
+            },
+            {
+                "name": ".border-indigo-darker",
+                "property": "border-color: #2f365f;"
+            },
+            {
+                "name": ".border-indigo-dark",
+                "property": "border-color: #5661b3;"
+            },
+            {
+                "name": ".border-indigo",
+                "property": "border-color: #6574cd;"
+            },
+            {
+                "name": ".border-indigo-light",
+                "property": "border-color: #7886d7;"
+            },
+            {
+                "name": ".border-indigo-lighter",
+                "property": "border-color: #b2b7ff;"
+            },
+            {
+                "name": ".border-indigo-lightest",
+                "property": "border-color: #e6e8ff;"
+            },
+            {
+                "name": ".border-purple-darkest",
+                "property": "border-color: #21183c;"
+            },
+            {
+                "name": ".border-purple-darker",
+                "property": "border-color: #382b5f;"
+            },
+            {
+                "name": ".border-purple-dark",
+                "property": "border-color: #794acf;"
+            },
+            {
+                "name": ".border-purple",
+                "property": "border-color: #9561e2;"
+            },
+            {
+                "name": ".border-purple-light",
+                "property": "border-color: #a779e9;"
+            },
+            {
+                "name": ".border-purple-lighter",
+                "property": "border-color: #d6bbfc;"
+            },
+            {
+                "name": ".border-purple-lightest",
+                "property": "border-color: #f3ebff;"
+            },
+            {
+                "name": ".border-pink-darkest",
+                "property": "border-color: #451225;"
+            },
+            {
+                "name": ".border-pink-darker",
+                "property": "border-color: #6f213f;"
+            },
+            {
+                "name": ".border-pink-dark",
+                "property": "border-color: #eb5286;"
+            },
+            {
+                "name": ".border-pink",
+                "property": "border-color: #f66d9b;"
+            },
+            {
+                "name": ".border-pink-light",
+                "property": "border-color: #fa7ea8;"
+            },
+            {
+                "name": ".border-pink-lighter",
+                "property": "border-color: #ffbbca;"
+            },
+            {
+                "name": ".border-pink-lightest",
+                "property": "border-color: #ffebef;"
+            }
+        ]
+    },
+    {
+        "name": "Border Style",
+        "classes": [
+            {
+                "name": ".border-solid",
+                "property": "border-style: solid;"
+            },
+            {
+                "name": ".border-dashed",
+                "property": "border-style: dashed;"
+            },
+            {
+                "name": ".border-dotted",
+                "property": "border-style: dotted;"
+            },
+            {
+                "name": ".border-none",
+                "property": "border-style: none;"
+            }
+        ]
+    },
+    {
+        "name": "Border Radius",
+        "classes": [
+            {
+                "name": ".rounded-none",
+                "property": "border-radius: 0;"
+            },
+            {
+                "name": ".rounded-sm",
+                "property": "border-radius: .125rem;"
+            },
+            {
+                "name": ".rounded",
+                "property": "border-radius: .25rem;"
+            },
+            {
+                "name": ".rounded-lg",
+                "property": "border-radius: .5rem;"
+            },
+            {
+                "name": ".rounded-full",
+                "property": "border-radius: 9999px;"
+            },
+            {
+                "name": ".rounded-t-none",
+                "property": "border-top-left-radius: 0;<br>border-top-right-radius: 0;"
+            },
+            {
+                "name": ".rounded-r-none",
+                "property": "border-top-right-radius: 0;<br>border-bottom-right-radius: 0;"
+            },
+            {
+                "name": ".rounded-b-none",
+                "property": "border-bottom-right-radius: 0;<br>border-bottom-left-radius: 0;"
+            },
+            {
+                "name": ".rounded-l-none",
+                "property": "border-top-left-radius: 0;<br>border-bottom-left-radius: 0;"
+            },
+            {
+                "name": ".rounded-t-sm",
+                "property": "border-top-left-radius: .125rem;<br>border-top-right-radius: .125rem;"
+            },
+            {
+                "name": ".rounded-r-sm",
+                "property": "border-top-right-radius: .125rem;<br>border-bottom-right-radius: .125rem;"
+            },
+            {
+                "name": ".rounded-b-sm",
+                "property": "border-bottom-right-radius: .125rem;<br>border-bottom-left-radius: .125rem;"
+            },
+            {
+                "name": ".rounded-l-sm",
+                "property": "border-top-left-radius: .125rem;<br>border-bottom-left-radius: .125rem;"
+            },
+            {
+                "name": ".rounded-t",
+                "property": "border-top-left-radius: .25rem;<br>border-top-right-radius: .25rem;"
+            },
+            {
+                "name": ".rounded-r",
+                "property": "border-top-right-radius: .25rem;<br>border-bottom-right-radius: .25rem;"
+            },
+            {
+                "name": ".rounded-b",
+                "property": "border-bottom-right-radius: .25rem;<br>border-bottom-left-radius: .25rem;"
+            },
+            {
+                "name": ".rounded-l",
+                "property": "border-top-left-radius: .25rem;<br>border-bottom-left-radius: .25rem;"
+            },
+            {
+                "name": ".rounded-t-lg",
+                "property": "border-top-left-radius: .5rem;<br>border-top-right-radius: .5rem;"
+            },
+            {
+                "name": ".rounded-r-lg",
+                "property": "border-top-right-radius: .5rem;<br>border-bottom-right-radius: .5rem;"
+            },
+            {
+                "name": ".rounded-b-lg",
+                "property": "border-bottom-right-radius: .5rem;<br>border-bottom-left-radius: .5rem;"
+            },
+            {
+                "name": ".rounded-l-lg",
+                "property": "border-top-left-radius: .5rem;<br>border-bottom-left-radius: .5rem;"
+            },
+            {
+                "name": ".rounded-t-full",
+                "property": "border-top-left-radius: 9999px;<br>border-top-right-radius: 9999px;"
+            },
+            {
+                "name": ".rounded-r-full",
+                "property": "border-top-right-radius: 9999px;<br>border-bottom-right-radius: 9999px;"
+            },
+            {
+                "name": ".rounded-b-full",
+                "property": "border-bottom-right-radius: 9999px;<br>border-bottom-left-radius: 9999px;"
+            },
+            {
+                "name": ".rounded-l-full",
+                "property": "border-top-left-radius: 9999px;<br>border-bottom-left-radius: 9999px;"
+            },
+            {
+                "name": ".rounded-tl-none",
+                "property": "border-top-left-radius: 0;"
+            },
+            {
+                "name": ".rounded-tr-none",
+                "property": "border-top-right-radius: 0;"
+            },
+            {
+                "name": ".rounded-br-none",
+                "property": "border-bottom-right-radius: 0;"
+            },
+            {
+                "name": ".rounded-bl-none",
+                "property": "border-bottom-left-radius: 0;"
+            },
+            {
+                "name": ".rounded-tl-sm",
+                "property": "border-top-left-radius: .125rem;"
+            },
+            {
+                "name": ".rounded-tr-sm",
+                "property": "border-top-right-radius: .125rem;"
+            },
+            {
+                "name": ".rounded-br-sm",
+                "property": "border-bottom-right-radius: .125rem;"
+            },
+            {
+                "name": ".rounded-bl-sm",
+                "property": "border-bottom-left-radius: .125rem;"
+            },
+            {
+                "name": ".rounded-tl",
+                "property": "border-top-left-radius: .25rem;"
+            },
+            {
+                "name": ".rounded-tr",
+                "property": "border-top-right-radius: .25rem;"
+            },
+            {
+                "name": ".rounded-br",
+                "property": "border-bottom-right-radius: .25rem;"
+            },
+            {
+                "name": ".rounded-bl",
+                "property": "border-bottom-left-radius: .25rem;"
+            },
+            {
+                "name": ".rounded-tl-lg",
+                "property": "border-top-left-radius: .5rem;"
+            },
+            {
+                "name": ".rounded-tr-lg",
+                "property": "border-top-right-radius: .5rem;"
+            },
+            {
+                "name": ".rounded-br-lg",
+                "property": "border-bottom-right-radius: .5rem;"
+            },
+            {
+                "name": ".rounded-bl-lg",
+                "property": "border-bottom-left-radius: .5rem;"
+            },
+            {
+                "name": ".rounded-tl-full",
+                "property": "border-top-left-radius: 9999px;"
+            },
+            {
+                "name": ".rounded-tr-full",
+                "property": "border-top-right-radius: 9999px;"
+            },
+            {
+                "name": ".rounded-br-full",
+                "property": "border-bottom-right-radius: 9999px;"
+            },
+            {
+                "name": ".rounded-bl-full",
+                "property": "border-bottom-left-radius: 9999px;"
+            }
+        ]
+    },
+    {
+        "name": "Display",
+        "classes": [
+            {
+                "name": ".block",
+                "property": "display: block;"
+            },
+            {
+                "name": ".inline-block",
+                "property": "display: inline-block;"
+            },
+            {
+                "name": ".inline",
+                "property": "display: inline;"
+            },
+            {
+                "name": ".table",
+                "property": "display: table;"
+            },
+            {
+                "name": ".table-row",
+                "property": "display: table-row;"
+            },
+            {
+                "name": ".table-cell",
+                "property": "display: table-cell;"
+            },
+            {
+                "name": ".hidden",
+                "property": "display: none;"
+            },
+            {
+                "name": ".flex",
+                "property": "display: flex;"
+            },
+            {
+                "name": ".inline-flex",
+                "property": "display: inline-flex;"
+            }
+        ]
+    },
+    {
+        "name": "Flex Direction",
+        "classes": [
+            {
+                "name": ".flex-row",
+                "property": "flex-direction: row;"
+            },
+            {
+                "name": ".flex-row-reverse",
+                "property": "flex-direction: row-reverse;"
+            },
+            {
+                "name": ".flex-col",
+                "property": "flex-direction: column;"
+            },
+            {
+                "name": ".flex-col-reverse",
+                "property": "flex-direction: column-reverse;"
+            }
+        ]
+    },
+    {
+        "name": "Flex Wrapping",
+        "classes": [
+            {
+                "name": ".flex-no-wrap",
+                "property": "flex-wrap: nowrap;"
+            },
+            {
+                "name": ".flex-wrap",
+                "property": "flex-wrap: wrap;"
+            },
+            {
+                "name": ".flex-wrap-reverse",
+                "property": "flex-wrap: wrap-reverse;"
+            }
+        ]
+    },
+    {
+        "name": "Align Items",
+        "classes": [
+            {
+                "name": ".items-stretch",
+                "property": "align-items: stretch;"
+            },
+            {
+                "name": ".items-start",
+                "property": "align-items: flex-start;"
+            },
+            {
+                "name": ".items-center",
+                "property": "align-items: center;"
+            },
+            {
+                "name": ".items-end",
+                "property": "align-items: flex-end;"
+            },
+            {
+                "name": ".items-baseline",
+                "property": "align-items: baseline;"
+            }
+        ]
+    },
+    {
+        "name": "Align Content",
+        "classes": [
+            {
+                "name": ".content-start",
+                "property": "align-content: flex-start;"
+            },
+            {
+                "name": ".content-center",
+                "property": "align-content: center;"
+            },
+            {
+                "name": ".content-end",
+                "property": "align-content: flex-end;"
+            },
+            {
+                "name": ".content-between",
+                "property": "align-content: space-between;"
+            },
+            {
+                "name": ".content-around",
+                "property": "align-content: space-around;"
+            }
+        ]
+    },
+    {
+        "name": "Align Self",
+        "classes": [
+            {
+                "name": ".self-auto",
+                "property": "align-self: auto;"
+            },
+            {
+                "name": ".self-start",
+                "property": "align-self: flex-start;"
+            },
+            {
+                "name": ".self-center",
+                "property": "align-self: center;"
+            },
+            {
+                "name": ".self-end",
+                "property": "align-self: flex-end;"
+            },
+            {
+                "name": ".self-stretch",
+                "property": "align-self: stretch;"
+            }
+        ]
+    },
+    {
+        "name": "Justify Content",
+        "classes": [
+            {
+                "name": ".justify-start",
+                "property": "justify-content: flex-start;"
+            },
+            {
+                "name": ".justify-center",
+                "property": "justify-content: center;"
+            },
+            {
+                "name": ".justify-end",
+                "property": "justify-content: flex-end;"
+            },
+            {
+                "name": ".justify-between",
+                "property": "justify-content: space-between;"
+            },
+            {
+                "name": ".justify-around",
+                "property": "justify-content: space-around;"
+            }
+        ]
+    },
+    {
+        "name": "Flex, Grow, & Shrink",
+        "classes": [
+            {
+                "name": ".flex-initial",
+                "property": "flex: initial;"
+            },
+            {
+                "name": ".flex-1",
+                "property": "flex: 1;"
+            },
+            {
+                "name": ".flex-auto",
+                "property": "flex: auto;"
+            },
+            {
+                "name": ".flex-none",
+                "property": "flex: none;"
+            },
+            {
+                "name": ".flex-grow",
+                "property": "flex-grow: 1;"
+            },
+            {
+                "name": ".flex-shrink",
+                "property": "flex-shrink: 1;"
+            },
+            {
+                "name": ".flex-no-grow",
+                "property": "flex-grow: 0;"
+            },
+            {
+                "name": ".flex-no-shrink",
+                "property": "flex-shrink: 0;"
+            }
+        ]
+    },
+    {
+        "name": "Width",
+        "classes": [
+            {
+                "name": ".w-1",
+                "property": "width: 0.25rem;"
+            },
+            {
+                "name": ".w-2",
+                "property": "width: 0.5rem;"
+            },
+            {
+                "name": ".w-3",
+                "property": "width: 0.75rem;"
+            },
+            {
+                "name": ".w-4",
+                "property": "width: 1rem;"
+            },
+            {
+                "name": ".w-6",
+                "property": "width: 1.5rem;"
+            },
+            {
+                "name": ".w-8",
+                "property": "width: 2rem;"
+            },
+            {
+                "name": ".w-10",
+                "property": "width: 2.5rem;"
+            },
+            {
+                "name": ".w-12",
+                "property": "width: 3rem;"
+            },
+            {
+                "name": ".w-16",
+                "property": "width: 4rem;"
+            },
+            {
+                "name": ".w-24",
+                "property": "width: 6rem;"
+            },
+            {
+                "name": ".w-32",
+                "property": "width: 8rem;"
+            },
+            {
+                "name": ".w-48",
+                "property": "width: 12rem;"
+            },
+            {
+                "name": ".w-64",
+                "property": "width: 16rem;"
+            },
+            {
+                "name": ".w-auto",
+                "property": "width: auto;"
+            },
+            {
+                "name": ".w-px",
+                "property": "width: 1px;"
+            },
+            {
+                "name": ".w-1/2",
+                "property": "width: 50%;"
+            },
+            {
+                "name": ".w-1/3",
+                "property": "width: 33.33333%;"
+            },
+            {
+                "name": ".w-2/3",
+                "property": "width: 66.66667%;"
+            },
+            {
+                "name": ".w-1/4",
+                "property": "width: 25%;"
+            },
+            {
+                "name": ".w-3/4",
+                "property": "width: 75%;"
+            },
+            {
+                "name": ".w-1/5",
+                "property": "width: 20%;"
+            },
+            {
+                "name": ".w-2/5",
+                "property": "width: 40%;"
+            },
+            {
+                "name": ".w-3/5",
+                "property": "width: 60%;"
+            },
+            {
+                "name": ".w-4/5",
+                "property": "width: 80%;"
+            },
+            {
+                "name": ".w-1/6",
+                "property": "width: 16.66667%;"
+            },
+            {
+                "name": ".w-5/6",
+                "property": "width: 83.33333%;"
+            },
+            {
+                "name": ".w-full",
+                "property": "width: 100%;"
+            },
+            {
+                "name": ".w-screen",
+                "property": "width: 100vw;"
+            }
+        ]
+    },
+    {
+        "name": "Min-Width",
+        "classes": [
+            {
+                "name": ".min-w-0",
+                "property": "min-width: 0;"
+            },
+            {
+                "name": ".min-w-full",
+                "property": "min-width: 100%;"
+            }
+        ]
+    },
+    {
+        "name": "Max-Width",
+        "classes": [
+            {
+                "name": ".max-w-xs",
+                "property": "max-width: 20rem;"
+            },
+            {
+                "name": ".max-w-sm",
+                "property": "max-width: 30rem;"
+            },
+            {
+                "name": ".max-w-md",
+                "property": "max-width: 40rem;"
+            },
+            {
+                "name": ".max-w-lg",
+                "property": "max-width: 50rem;"
+            },
+            {
+                "name": ".max-w-xl",
+                "property": "max-width: 60rem;"
+            },
+            {
+                "name": ".max-w-2xl",
+                "property": "max-width: 70rem;"
+            },
+            {
+                "name": ".max-w-3xl",
+                "property": "max-width: 80rem;"
+            },
+            {
+                "name": ".max-w-4xl",
+                "property": "max-width: 90rem;"
+            },
+            {
+                "name": ".max-w-5xl",
+                "property": "max-width: 100rem;"
+            },
+            {
+                "name": ".max-w-full",
+                "property": "max-width: 100%;"
+            }
+        ]
+    },
+    {
+        "name": "Height",
+        "classes": [
+            {
+                "name": ".h-1",
+                "property": "height: 0.25rem;"
+            },
+            {
+                "name": ".h-2",
+                "property": "height: 0.5rem;"
+            },
+            {
+                "name": ".h-3",
+                "property": "height: 0.75rem;"
+            },
+            {
+                "name": ".h-4",
+                "property": "height: 1rem;"
+            },
+            {
+                "name": ".h-6",
+                "property": "height: 1.5rem;"
+            },
+            {
+                "name": ".h-8",
+                "property": "height: 2rem;"
+            },
+            {
+                "name": ".h-10",
+                "property": "height: 2.5rem;"
+            },
+            {
+                "name": ".h-12",
+                "property": "height: 3rem;"
+            },
+            {
+                "name": ".h-16",
+                "property": "height: 4rem;"
+            },
+            {
+                "name": ".h-24",
+                "property": "height: 6rem;"
+            },
+            {
+                "name": ".h-32",
+                "property": "height: 8rem;"
+            },
+            {
+                "name": ".h-48",
+                "property": "height: 12rem;"
+            },
+            {
+                "name": ".h-64",
+                "property": "height: 16rem;"
+            },
+            {
+                "name": ".h-auto",
+                "property": "height: auto;"
+            },
+            {
+                "name": ".h-px",
+                "property": "height: 1px;"
+            },
+            {
+                "name": ".h-full",
+                "property": "height: 100%;"
+            },
+            {
+                "name": ".h-screen",
+                "property": "height: 100vh;"
+            }
+        ]
+    },
+    {
+        "name": "Min-Height",
+        "classes": [
+            {
+                "name": ".min-h-0",
+                "property": "min-height: 0;"
+            },
+            {
+                "name": ".min-h-full",
+                "property": "min-height: 100%;"
+            },
+            {
+                "name": ".min-h-screen",
+                "property": "min-height: 100vh;"
+            }
+        ]
+    },
+    {
+        "name": "Max-Height",
+        "classes": [
+            {
+                "name": ".max-h-full",
+                "property": "max-height: 100%;"
+            },
+            {
+                "name": ".max-h-screen",
+                "property": "max-height: 100vh;"
+            }
+        ]
+    },
+    {
+        "name": "Border Collapse",
+        "classes": [
+            {
+                "name": ".border-collapse",
+                "property": "border-collapse: collapse;"
+            },
+            {
+                "name": ".border-separate",
+                "property": "border-collapse: separate;"
+            }
+        ]
+    },
+    {
+        "name": "Table Layout",
+        "classes": [
+            {
+                "name": ".table-auto",
+                "property": "table-layout: auto;"
+            },
+            {
+                "name": ".table-fixed",
+                "property": "table-layout: fixed;"
+            }
+        ]
+    },
+    {
+        "name": "Box Shadow",
+        "classes": [
+            {
+                "name": ".shadow",
+                "property": "box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);"
+            },
+            {
+                "name": ".shadow-md",
+                "property": "box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),<br>            0 2px 4px 0 rgba(0,0,0,0.08);"
+            },
+            {
+                "name": ".shadow-lg",
+                "property": "box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),<br>            0 5px 15px 0 rgba(0,0,0,0.08);"
+            },
+            {
+                "name": ".shadow-inner",
+                "property": "box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.06);"
+            },
+            {
+                "name": ".shadow-outline",
+                "property": "box-shadow: 0 0 0 3px rgba(52,144,220,0.5);"
+            },
+            {
+                "name": ".shadow-none",
+                "property": "box-shadow: none;"
+            }
+        ]
+    },
+    {
+        "name": "Opacity",
+        "classes": [
+            {
+                "name": ".opacity-100",
+                "property": "opacity: 1;"
+            },
+            {
+                "name": ".opacity-75",
+                "property": "opacity: .75;"
+            },
+            {
+                "name": ".opacity-50",
+                "property": "opacity: .5;"
+            },
+            {
+                "name": ".opacity-25",
+                "property": "opacity: .25;"
+            },
+            {
+                "name": ".opacity-0",
+                "property": "opacity: 0;"
+            }
+        ]
+    },
+    {
+        "name": "Appearance",
+        "classes": [
+            {
+                "name": ".appearance-none",
+                "property": "appearance: none;"
+            }
+        ]
+    },
+    {
+        "name": "Cursor",
+        "classes": [
+            {
+                "name": ".cursor-auto",
+                "property": "cursor: auto;"
+            },
+            {
+                "name": ".cursor-default",
+                "property": "cursor: default;"
+            },
+            {
+                "name": ".cursor-pointer",
+                "property": "cursor: pointer;"
+            },
+            {
+                "name": ".cursor-wait",
+                "property": "cursor: wait;"
+            },
+            {
+                "name": ".cursor-move",
+                "property": "cursor: move;"
+            },
+            {
+                "name": ".cursor-not-allowed",
+                "property": "cursor: not-allowed;"
+            }
+        ]
+    },
+    {
+        "name": "Outline",
+        "classes": [
+            {
+                "name": ".outline-none",
+                "property": "outline: 0;"
+            }
+        ]
+    },
+    {
+        "name": "Pointer Events",
+        "classes": [
+            {
+                "name": ".pointer-events-none",
+                "property": "pointer-events: none;"
+            },
+            {
+                "name": ".pointer-events-auto",
+                "property": "pointer-events: auto;"
+            }
+        ]
+    },
+    {
+        "name": "Resize",
+        "classes": [
+            {
+                "name": ".resize-none",
+                "property": "resize: none;"
+            },
+            {
+                "name": ".resize",
+                "property": "resize: both;"
+            },
+            {
+                "name": ".resize-y",
+                "property": "resize: vertical;"
+            },
+            {
+                "name": ".resize-x",
+                "property": "resize: horizontal;"
+            }
+        ]
+    },
+    {
+        "name": "User Select",
+        "classes": [
+            {
+                "name": ".select-none",
+                "property": "user-select: none;"
+            },
+            {
+                "name": ".select-text",
+                "property": "user-select: text;"
+            }
+        ]
+    },
+    {
+        "name": "Fill & Stroke",
+        "classes": [
+            {
+                "name": ".fill-current",
+                "property": "fill: currentColor;"
+            },
+            {
+                "name": ".stroke-current",
+                "property": "stroke: currentColor;"
+            }
+        ]
+    }
+]
